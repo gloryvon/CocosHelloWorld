@@ -27,9 +27,16 @@
     <ClCompile Include="..\Classes\MyScene.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
-    <ClCompile Include="T01LayerAnchorPoint.cpp">
+    <ClCompile Include="..\Classes\T01LayerAnchorPoint.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\T02LayerSprite.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\T03LayerZorder.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\T04ColorLayer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -47,9 +54,17 @@
     <ClInclude Include="..\Classes\MyScene.h">
       <Filter>Classes</Filter>
     </ClInclude>
-    <ClInclude Include="T01LayerAnchorPoint.h">
+    <ClInclude Include="..\Classes\T01LayerAnchorPoint.h">
       <Filter>Classes</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\T02LayerSprite.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\Classes\T03LayerZorder.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\T04ColorLayer.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\Resources\CloseNormal.png">
@@ -61,5 +76,8 @@
     <Image Include="..\Resources\HelloWorld.png">
       <Filter>Resources</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HelloWorld.rc" />
   </ItemGroup>
 </Project>

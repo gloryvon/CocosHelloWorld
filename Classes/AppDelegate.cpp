@@ -1,6 +1,9 @@
 #include "AppDelegate.h"
 #include "HelloWorldScene.h"
 #include "MyLayer.h"
+#include "T01LayerAnchorPoint.h"
+#include "T02LayerSprite.h"
+#include "T03LayerZorder.h"
 USING_NS_CC;
 
 AppDelegate::AppDelegate() {
@@ -31,7 +34,11 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	//CCScene *pScene = MyScene::create();
 
 
-	CCScene *pScene = MyLayer::scene();
+	// CCScene *pScene = MyLayer::scene();
+	//CCScene *pScene = T01LayerAnchorPoint::scene();
+
+	//CCScene *pScene = T02LayerSprite::scene();
+	CCScene *pScene = T03LayerZorder::scene();
     pDirector->runWithScene(pScene);
 
     return true;

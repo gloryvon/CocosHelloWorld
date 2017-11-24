@@ -1,3 +1,0 @@
-# CocosHelloWorld
-
-Cocos ѧϰ
